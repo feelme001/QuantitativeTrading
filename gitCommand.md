@@ -25,6 +25,6 @@
     - ```git lol``` now you can see your commint along with the main branch
     - ```git push origin myTestBranch``` push the myTestBranch to git online repo
     - It will ask you to login
-        - user name: feelme001
-        - password: the token I send you
+        - user name: your user name
+        - password: your token
 - now you should see your change in the online git repository
