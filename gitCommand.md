@@ -1,15 +1,16 @@
 ## Pull code from git
-- Got repostory: https://github.com/feelme001/QuantitativeTrading
+- Go to repository: https://github.com/feelme001/QuantitativeTrading
 - code -> HTTPS -> copy "https://github.com/feelme001/QuantitativeTrading.git"
-- At your local folder 
-  -  git clone https://github.com/feelme001/QuantitativeTrading.git
+- cd into your local folder you planning to work on the project
+  - inside the folder run command ```git clone https://github.com/feelme001/QuantitativeTrading.git``` 
+  - login your github account if needed
 
 ## Push code to git
 - Go to your local folder
 - Create your test branch
   - config the git so that it look good
     - ```git config --global alias.lol “log --graph --decorate --pretty=oneline --abbrev-commit --all”```
-  - create a test branch named myTestBranch```git checkout -b myTestBranch -t```
+  - create a test branch named myTestBranch also track the head from current main```git checkout -b myTestBranch -t```
 - create a test file push to your branch
   - ```vim testFile```
   - click ```i``` to enable make change to the file
