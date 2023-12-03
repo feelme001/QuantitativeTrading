@@ -16,7 +16,7 @@
   - click ```i``` to enable make change to the file
   - type some sample text
   - click ```ESC``` to exit the edit model
-  - shift then type ```:wq``` to indicate you want to write and quip save the new vim file you created
+  - ```shift``` then type ```:wq``` to indicate you want to write and quit save the new vim file you created
   - commit the change
     - ```git status``` you should see your change in red color means it havn't been saved to git yet
     - ```git add .``` add the file to git repostory
