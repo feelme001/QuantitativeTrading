@@ -3,7 +3,7 @@
 - three factor model 
   - ![Alt Text](https://drive.google.com/uc?id=1BK9RIWnS9cR_LZbexDrK_y7SoZSTx0xs) 
 - My excel example [worksheet](https://docs.google.com/spreadsheets/d/1l7z_KihejnZNjK_LfhpxPQ4hu5JhFTax/edit?usp=drive_link&ouid=117366340446730717038&rtpof=true&sd=true)
-- Get the three factor data library here: https://kennethfrench.com/
+- Get the three factor data library here: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 - CAPM model beta is market return s&p500 daily return coefficient with a single price daily return
   - watch youtube [video](https://www.youtube.com/watch?v=Gu8zUxgU2vA)
   - calculation [formular](https://drive.google.com/file/d/1rQIwmtcZos9HD9z0EEsTP2QYRZbz8ls-/view?usp=drive_link)
@@ -14,6 +14,7 @@
   - alpha p-value: 
   - Expected-Return(Asset) = Risk-Free-Rate  +  β  ×  (Market Return  −  Risk-Free-Rate)
   - FORMULATEXT function in excel show what the formular is been used
+  - ![capm](https://drive.google.com/uc?id=146uPBN7ZnVfDzY_cWus3_x5-NfEFBy-1)
 - run regression model
   - Definition: R2 is a measure of the goodness of fit of a regression model. It ranges from 0 to 1
     - R2=0 indicates that the model does not explain any variability in the dependent variable.
