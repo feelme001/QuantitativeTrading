@@ -1,3 +1,6 @@
+### 12/6/2023
+- planning to watch this [video](https://www.youtube.com/watch?v=ro07evEWbCE&t=1946s) related to barra factor model
+
 ### 12/5/2023
 - watch three factor model youtube [video](https://www.youtube.com/watch?v=HwXX_JBM8_4)
 - three factor model 
@@ -32,6 +35,7 @@
     - ```
       https://drive.google.com/file/d/1ADHGiW462b4l4x8g3loDRHtNIGAMoymK/view?usp=drive_link
       https://drive.google.com/uc?id=1ADHGiW462b4l4x8g3loDRHtNIGAMoymK
+- graph the efficient frontier and capital allocation line in excel, youtube [video](https://www.youtube.com/watch?v=dJipa0K64HI)
 
 
 
