@@ -1,3 +1,39 @@
+### 12/5/2023
+- watch three factor model youtube [video](https://www.youtube.com/watch?v=HwXX_JBM8_4)
+- three factor model 
+  - ![Alt Text](https://drive.google.com/uc?id=1BK9RIWnS9cR_LZbexDrK_y7SoZSTx0xs) 
+- My excel example [worksheet](https://docs.google.com/spreadsheets/d/1l7z_KihejnZNjK_LfhpxPQ4hu5JhFTax/edit?usp=drive_link&ouid=117366340446730717038&rtpof=true&sd=true)
+- Get the three factor data library here: https://kennethfrench.com/
+- CAPM model beta is market return s&p500 daily return coefficient with a single price daily return
+  - watch youtube [video](https://www.youtube.com/watch?v=Gu8zUxgU2vA)
+  - calculation [formular](https://drive.google.com/file/d/1rQIwmtcZos9HD9z0EEsTP2QYRZbz8ls-/view?usp=drive_link)
+   - ![capm](https://drive.google.com/uc?id=1rQIwmtcZos9HD9z0EEsTP2QYRZbz8ls-) 
+  - intercept is alpha
+  - s&p500 coefficients is the beta
+  - beta p-value: is it significant driving this related to confident level
+  - alpha p-value: 
+  - Expected-Return(Asset) = Risk-Free-Rate  +  β  ×  (Market Return  −  Risk-Free-Rate)
+  - FORMULATEXT function in excel show what the formular is been used
+- run regression model
+  - Definition: R2 is a measure of the goodness of fit of a regression model. It ranges from 0 to 1
+    - R2=0 indicates that the model does not explain any variability in the dependent variable.
+    - R2=1 indicates that the model perfectly explains the variability in the dependent variable.
+  - Interpretation
+    - R2 is interpreted as the proportion of the variance in the dependent variable that can be explained by the independent variable(s) in the model.
+    - For example, if R2=0.75, it means that 75% of the variance in the dependent variable is explained by the independent variable(s) in the model.
+  - Calculation and more details
+    - [link](https://drive.google.com/file/d/1ADHGiW462b4l4x8g3loDRHtNIGAMoymK/view?usp=drive_link)
+    - ![Alt Text](https://drive.google.com/uc?id=1ADHGiW462b4l4x8g3loDRHtNIGAMoymK)
+- show image in md
+  - ```![Alt Text](https://drive.google.com/uc?id=your-file-id)```
+  - Replace Alt Text with a descriptive text for the image, and replace your-file-id with the actual file ID.
+  - example
+    - ```
+      https://drive.google.com/file/d/1ADHGiW462b4l4x8g3loDRHtNIGAMoymK/view?usp=drive_link
+      https://drive.google.com/uc?id=1ADHGiW462b4l4x8g3loDRHtNIGAMoymK
+
+
+
 ### 12/4/2023
 - Using GPT to learn the github Barra model [barra](https://github.com/hansihuang2016/Barra-Multiple-factor-risk-model) create_filter.py and finance.py
   - ```
