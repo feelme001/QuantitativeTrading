@@ -1,7 +1,11 @@
+### 12/7/2023
+- 
+
 ### 12/6/2023
 - planning to watch this [video](https://www.youtube.com/watch?v=ro07evEWbCE&t=1946s) related to barra factor model
 - pratice pandas https://pandas.pydata.org/docs/user_guide/index.html 
 - reading https://app2.msci.com/products/analytics/models/
+- EDA and Data Reprocessing section learning 
  
 
 ### 12/5/2023
