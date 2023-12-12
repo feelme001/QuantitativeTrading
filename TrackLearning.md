@@ -1,3 +1,6 @@
+### 12/11/2023
+- coding practice
+
 ### 12/8/2023
 - Reading https://app2.msci.com/products/analytics/models/
   - 4 levels, industry
