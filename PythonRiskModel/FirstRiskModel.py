@@ -52,9 +52,9 @@ def plot_risk_model(returns, var):
     plt.show()
     
 # Define parameters
-ticker = 'AAPL'
-start_date = '2022-01-01'
-end_date = '2023-01-01'
+ticker = 'DADA'
+start_date = '2023-01-01'
+end_date = '2023-12-08'
 confidence_level = 0.95
 
 # Download historical stock prices
