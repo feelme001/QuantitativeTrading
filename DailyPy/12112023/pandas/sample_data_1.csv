@@ -1,0 +1,8 @@
+Name,Age,City,Salary,Sex
+Alice,25,New York,50000,false
+Bob,,San Francisco,60000,False
+Charlie,35,Los Angeles,75000,False
+David,28,Chicago,NaN,False
+Eva,32,Miami,55000,True
+Frank,40,Dallas,80000,
+Grace,29,Houston,70000,True
