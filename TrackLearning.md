@@ -1,5 +1,7 @@
 ### 12/12/2023
 - DailyPy
+- read https://www.researchgate.net/profile/Lisa-Goldberg-5/publication/267791427_The_Barra_Equity_Volatility_Futures_Model_EVX1/links/5506f6ea0cf2d7a281228541/The-Barra-Equity-Volatility-Futures-Model-EVX1.pdf
+- read https://d1wqtxts1xzle7.cloudfront.net/60249823/Barras_risk_model20190809-8329-u0l1rd-libre.pdf?1565404030=&response-content-disposition=inline%3B+filename%3DBARRAs_Risk_Models.pdf&Expires=1702461739&Signature=AjG-FbK5HAngNX4414RYr~HUKiU9IFUGOswVL2GDzdy3rTiSyASEOu3EI2TPIzpiToDn4SBvAglz7buDgkqYlOqlYoeuN~qkuG5Zb5V5886b3pRABxga7DOSHzLLSFHIlJ5vb880e~W-gJgJmiBei8lOlv4rg6uWaQ9urBB5nyrh1h4eP~rL1XdAi2xdlQDMKoLqkm4mGVYnAmMPK6x6C~yd5WYZvlkLJEb-zSPhynCrLfVzVdYGbYFPOwF08c3yTSFIHg4ygkPub-PFTBqB6T-~vdIBJkYGjdboggw5s5IK8O9rvCNM3VKjtdCmopULUkzfTWCzo~YcBpyIfe0aZg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
 
 ### 12/11/2023
 - coding practice
