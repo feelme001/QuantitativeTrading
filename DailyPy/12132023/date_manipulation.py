@@ -56,3 +56,8 @@ date_diff = date2 - date1
 # Converting timedelta to days
 days_diff = date_diff / np.timedelta64(1, 'D')
 print(days_diff)
+
+
+# 1. Resampling and Frequency Conversion:
+
+
