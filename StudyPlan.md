@@ -1,12 +1,12 @@
 ### Week 1: Basic Stock Performance Analysis
-#### Monday to Friday (1 Hour/Day)
+#### Monday to Friday (1 Hour/Day) Done 1/6/2024
 - Monday: Set up your Python environment. Install necessary packages (pandas, numpy, matplotlib, pandas_datareader).
 - Tuesday: Learn to fetch stock data using pandas_datareader. Fetch data for AAPL and MSFT.
 - Wednesday: Explore the fetched data. Learn about DataFrame operations.
 - Thursday: Perform vectorized operations to calculate daily stock returns.
 - Friday: Start basic visualization: plot stock price over time using matplotlib.
-#### Saturday & Sunday (3 Hours/Day)
-- Saturday:
+#### Saturday & Sunday (3 Hours/Day) 
+- Saturday: Done 1/6/2024
 First Hour: Review and refine the plots.
 Next Two Hours: Enhance your analysis with additional visualizations (e.g., histograms of daily returns).
 - Sunday:
