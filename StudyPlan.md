@@ -79,7 +79,7 @@ Enhanced skills in Python for data manipulation and visualization in a financial
 Remember, the goal of this week is to deepen your comparative analysis skills and understand the relationships between different stocks. If you have any questions or need assistance with specific parts of the analysis, feel free to ask!
 ```
 
-### Week 3: Moving Average and Volatility Analysis
+### Week 3: Moving Average and Volatility Analysis Done 1-7-2024
 #### Monday to Friday (1 Hour/Day)
 - Monday: Study moving averages and calculate them for a chosen stock.
 - Tuesday: Implement the calculation of long-term moving averages.
@@ -90,72 +90,13 @@ Remember, the goal of this week is to deepen your comparative analysis skills an
 - Saturday:
 First Hour: Review and refine your plots.
 Next Two Hours: Write an interpretation of the moving averages and volatility in the context of stock performance.
-- Sunday:
+- Sunday: 
 First Hour: Document your code and findings.
 Next Two Hours: Apply your analysis to a different set of stocks for comparison.
-```
-Tasks for Week 3:
-Day 1 (Monday): Understand and Calculate Moving Averages
-Learn About Moving Averages:
 
-Moving averages smooth out price data to identify trends. Common types are the Simple Moving Average (SMA) and the Exponential Moving Average (EMA).
-The SMA is an average of stock prices over a specific number of days, while the EMA gives more weight to recent prices.
-Calculate Moving Averages:
-
-Calculate short-term (e.g., 20-day) and long-term (e.g., 50-day) SMAs for each stock.
-Use Pandas’ rolling().mean() function for SMA.
-Sample Python Code for SMA:
-python
-Copy code
-# Calculate 20-day and 50-day SMAs for AAPL
-aapl_data['20-day SMA'] = aapl_data['Close'].rolling(window=20).mean()
-aapl_data['50-day SMA'] = aapl_data['Close'].rolling(window=50).mean()
-Day 2 (Tuesday): Plot Moving Averages
-Visualize Moving Averages:
-Plot the moving averages along with the closing prices of the stocks.
-This helps in visualizing trends and potential crossover points which are often considered as buy/sell signals.
-Sample Python Code for Plotting:
-python
-Copy code
-plt.figure(figsize=(10, 6))
-plt.plot(aapl_data['Close'], label='AAPL Close')
-plt.plot(aapl_data['20-day SMA'], label='20-day SMA')
-plt.plot(aapl_data['50-day SMA'], label='50-day SMA')
-plt.title('AAPL Close Price and Moving Averages')
-plt.xlabel('Date')
-plt.ylabel('Price')
-plt.legend()
-plt.show()
-Day 3 (Wednesday): Understand and Calculate Volatility
-Learn About Volatility:
-
-Volatility is a measure of the price variations of a stock over time. High volatility means high price fluctuations.
-Calculate Volatility:
-
-Calculate the annualized volatility, using the standard deviation of daily returns multiplied by the square root of the number of trading days in a year (commonly used: √252).
-Sample Python Code for Volatility:
-python
-Copy code
-# Calculate annualized volatility for AAPL
-aapl_volatility = aapl_data['Daily Return'].std() * np.sqrt(252)
-print("AAPL Annualized Volatility:", aapl_volatility)
-Day 4 (Thursday): Comparative Analysis of Moving Averages and Volatility
-Compare Moving Averages and Volatility Across Stocks:
-Analyze how different stocks behave in terms of their moving averages and volatility.
-Compare their trends and stability.
-Day 5 (Friday): Summarize Insights
-Document Your Analysis:
-Write a summary of your findings from the moving average and volatility analysis.
-Highlight key trends, potential trading signals, and risk profiles of different stocks.
-Weekend: Reflect and Explore Further
-Reflection and Further Study:
-Reflect on how these analyses might inform investment decisions.
-Consider exploring other technical indicators or timeframes for a more comprehensive analysis.
-```
-
-### Week 4: Portfolio Optimization
+### Week 4: Portfolio Optimization 
 #### Monday to Friday (1 Hour/Day)
-- Monday: Define a portfolio of selected stocks.
+- Monday: Define a portfolio of selected stocks. Done 1-8-2024 (build efficient frontier)
 - Tuesday: Learn about portfolio return and risk calculations.
 - Wednesday: Use vectorized operations to calculate expected portfolio return.
 - Thursday: Calculate the portfolio risk (standard deviation).
@@ -167,6 +108,67 @@ Next Two Hours: Analyze different portfolio compositions and their performance.
 - Sunday:
 First Hour: Review and document your optimization strategy.
 Next Two Hours: Test your portfolio with different risk-return scenarios.
+```
+Week 4: Portfolio Optimization
+Objective:
+Learn about and apply the principles of portfolio optimization, including the calculation of portfolio returns and risks, and explore basic portfolio optimization strategies.
+
+Tasks for Week 4:
+Day 1 (Monday): Understanding Portfolio Theory
+Study Portfolio Theory:
+Understand the basics of Modern Portfolio Theory (MPT), which focuses on optimizing the balance between risk and return in a portfolio.
+Learn about key concepts like diversification, the efficient frontier, and risk-return trade-off.
+Day 2 (Tuesday): Calculate Portfolio Return
+Define a Sample Portfolio:
+
+Create a hypothetical portfolio by selecting stocks and assigning weights to them (e.g., 40% AAPL, 30% MSFT, 20% AMZN, 10% GOOGL).
+Calculate Portfolio Return:
+
+Calculate the expected portfolio return based on individual stock returns and their respective weights.
+Sample Python Code for Portfolio Return:
+python
+Copy code
+# Define portfolio weights
+weights = np.array([0.4, 0.3, 0.2, 0.1])
+
+# Daily returns for each stock
+portfolio_data = pd.DataFrame({
+    'AAPL': aapl_data['Daily Return'],
+    'MSFT': msft_data['Daily Return'],
+    'AMZN': amzn_data['Daily Return'],
+    'GOOGL': googl_data['Daily Return']
+})
+
+# Calculate portfolio return
+portfolio_return = np.sum(weights * portfolio_data.mean()) * 252  # Annualize return
+print("Expected annual portfolio return:", portfolio_return)
+Day 3 (Wednesday): Calculate Portfolio Risk
+Calculate Portfolio Risk:
+Understand how to calculate portfolio risk, considering both individual stock volatilities and correlations between stocks.
+Use the variance-covariance matrix and portfolio weights to calculate the portfolio's standard deviation (risk).
+Sample Python Code for Portfolio Risk:
+python
+Copy code
+# Calculate the covariance matrix
+cov_matrix = portfolio_data.cov() * 252  # Annualize covariance
+
+# Calculate portfolio risk
+portfolio_risk = np.sqrt(np.dot(weights.T, np.dot(cov_matrix, weights)))
+print("Portfolio Risk (Standard Deviation):", portfolio_risk)
+Day 4 (Thursday): Explore Basic Portfolio Optimization
+Basic Portfolio Optimization:
+Experiment with different weight allocations to see how they affect the portfolio's expected return and risk.
+Understand the concept of the efficient frontier in the context of your stock selection.
+Day 5 (Friday): Summarize Insights and Strategy
+Document Your Analysis:
+Summarize your findings from the portfolio optimization exercises.
+Discuss how changing weights affects risk and return.
+Weekend: Advanced Portfolio Concepts
+Further Learning:
+If you're interested, start exploring more advanced portfolio optimization techniques, such as using the Sharpe Ratio for optimization or applying constraints to the optimization problem.
+Consider learning about software packages that can handle more complex optimization problems, like cvxpy or optimization modules in scipy.
+```
+
 
 ### Week 5: Factor Analysis in Stocks
 #### Monday to Friday (1 Hour/Day)
