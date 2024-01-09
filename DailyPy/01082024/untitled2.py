@@ -66,3 +66,5 @@ plt.ylabel('Return')
 # Highlight the point with the highest Sharpe ratio
 plt.scatter(vol_arr[max_sharpe_ratio_idx], ret_arr[max_sharpe_ratio_idx], c='red', s=50) 
 plt.show()
+
+# check
