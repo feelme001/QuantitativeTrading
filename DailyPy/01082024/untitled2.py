@@ -24,7 +24,9 @@ returns = data.pct_change().dropna()
 
 print(returns.head())
 
+# This seed setting will make sure each time you run the model, the best weight will be the same
 np.random.seed(42)
+
 num_portfolios = 10000
 all_weights = np.zeros((num_portfolios, len(stocks)))
 ret_arr = np.zeros(num_portfolios)
@@ -48,9 +50,19 @@ for i in range(num_portfolios):
     # Sharpe Ratio
     sharpe_arr[i] = ret_arr[i] / vol_arr[i]
     
+    
+    
 max_sharpe_ratio = sharpe_arr.max()
+
+# Find the index of the max sharpe ratio
 max_sharpe_ratio_idx = sharpe_arr.argmax()
+
+# Using the index to find the list of the weight for each stock
+# : this is the cliding, slicing all elements along this dimension, 
+# or in another way of saying "select all columns in the row identified by 'max_sharpe_ratio_idx'
 max_sharpe_portfolio = all_weights[max_sharpe_ratio_idx,:]
+
+
 
 print("Portfolio with the highest Sharpe Ratio:")
 print("Stock Weights:", max_sharpe_portfolio)
