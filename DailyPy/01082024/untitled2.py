@@ -22,6 +22,8 @@ data = yf.download(stocks, start=start, end=end)['Adj Close']
 
 returns = data.pct_change().dropna()
 
+print(returns.head())
+
 np.random.seed(42)
 num_portfolios = 10000
 all_weights = np.zeros((num_portfolios, len(stocks)))
