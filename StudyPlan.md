@@ -94,7 +94,7 @@ Next Two Hours: Write an interpretation of the moving averages and volatility in
 First Hour: Document your code and findings.
 Next Two Hours: Apply your analysis to a different set of stocks for comparison.
 
-### Week 4: Portfolio Optimization 
+### Week 4: Portfolio Optimization Done 1/9/2024
 #### Monday to Friday (1 Hour/Day)
 - Monday: Define a portfolio of selected stocks. Done 1-8-2024 (build efficient frontier)
 - Tuesday: Learn about portfolio return and risk calculations.
@@ -183,3 +183,49 @@ Next Two Hours: Create visualizations to represent the impact of these factors o
 - Sunday:
 First Hour: Summarize your findings in a report.
 Next Two Hours: Review, refine, and document your code and analysis.
+```
+Tasks for Week 5:
+Day 1 (Monday): Understanding Risk Management
+Study Risk Management Concepts: Done 1-9-2024
+
+Learn about different types of risks (market risk, credit risk, liquidity risk, etc.).
+Understand the importance of risk management in portfolio construction.
+Explore Risk Mitigation Techniques:
+
+Familiarize yourself with various risk mitigation strategies like asset allocation, hedging, using derivatives, etc.
+Day 2 (Tuesday): Principles of Diversification
+Learn About Diversification: Done 1-9-2024
+
+Understand how diversification can reduce unsystematic risk in a portfolio.
+Study the effect of asset correlation on diversification.
+Analyze Your Portfolio's Diversification:
+
+Examine the correlation between assets in your portfolio.
+Identify if your portfolio is overly concentrated in specific sectors or asset classes.
+Day 3 (Wednesday): Implementing Diversification Strategies
+Diversify Your Portfolio: Done 1-9-2024
+
+Based on your analysis, adjust your portfolio to spread out risk across different assets, sectors, or geographies.
+Consider Alternative Investments:
+
+Explore adding different asset classes (like bonds, real estate, commodities) to further diversify.
+Day 4 (Thursday): Stress Testing and Scenario Analysis
+Conduct Stress Testing:
+
+Apply stress testing to your portfolio to see how it might perform under various adverse market conditions.
+Perform Scenario Analysis:
+
+Analyze how major economic events (like a recession, market crash, etc.) might impact your portfolio.
+Day 5 (Friday): Review and Adjust Portfolio
+Review Portfolio Performance:
+
+Assess the performance of your diversified portfolio over time.
+Check if it aligns with your risk tolerance and investment goals.
+Make Necessary Adjustments:
+
+Based on your review, make adjustments to optimize risk and return.
+Weekend: Reflect and Plan Ahead
+Reflection and Learning:
+Reflect on the lessons learned about risk management and diversification.
+Plan for continuous learning and staying updated with market conditions and risk management strategies.
+```
